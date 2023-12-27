@@ -1,0 +1,22 @@
+{
+    "name": "Chrome Extension Example",
+    "description": "크롬 확장 프로그램 개발 예제",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+      }
+    },
+    "icons": {
+    }
+  }
+  
